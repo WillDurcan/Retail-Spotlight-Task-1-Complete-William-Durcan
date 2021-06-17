@@ -1,0 +1,13 @@
+"site_id","transaction_id","transaction_completed_at","barcode","product_name","quantity","unit_price"
+"0b945296-c67b-4656-9da2-9bfab3440403","80e30c36-3884-450b-854c-a7ca521258c3","2021-05-27 14:42:15.000000","850228006151","Case 1: Single quote' in string","2","2999"
+"279f9d3e-42f1-4113-abd9-e5511f735f52","85a3963e-0b5f-4a5a-b41e-e3ae6ecc5965","2021-05-27 14:42:18.000000","5055839538717","Case 2: Double Double quote"" in string","1","7499"
+"5aef2320-d914-42b9-a0ac-b10614feff21","ef4ee9b9-b6a8-43a7-a7f1-0a2f78c32efd","2021-05-27 15:42:15.000000","5902114014001","Case 3: carrage return
+ in string","1068","2999"
+"5aef2320-d914-42b9-a0ac-b10614feff21","ef4ee9b9-b6a8-43a7-a7f1-0a2f78c32efd","2021-05-27 15:42:15.000000","5060221203753","Case 4: Pound sign £ in string","1","199"
+"5aef2320-d914-42b9-a0ac-b10614feff21","ef4ee9b9-b6a8-43a7-a7f1-0a2f78c32efd","2021-05-27 15:42:15.000000","5060221201605","Case 5: Single Double quote" in string","3","199"
+"5aef2320-d914-42b9-a0ac-b10614feff21","ef4ee9b9-b6a8-43a7-a7f1-0a2f78c32efd","2021-05-27 15:42:15.000000","5902114012410","Case 6: Comma ,  in string","4","199"
+"5aef2320-d914-42b9-a0ac-b10614feff21","ef4ee9b9-b6a8-43a7-c7f1-0a2f78c32efd","2021-05-27 15:42:15.000000","5902114012410","Case 7: Invalid UUIDv4 ","1","199"
+"","ef4ee9b9-b6a8-43a7-c7f1-0a2f78c32efd","2021-05-27 15:42:15.000000","5902114012410","Case 8: missing UUIDv4 ","1","199"
+"279f9d3e-42f1-4113-abd9-e5511f735f52","85a3963e-0b5f-4a5a-b41e-e3ae6ecc5965","2021-05-27 15:42:18.000000","5055839532717","Case 8: NaN in quantity","NaN","7499"
+"279f9d3e-42f1-4113-abd9-e5511f735f52","85a3963e-0b5f-4a5a-b41e-e3ae6ecc5965","2021-05-27 15:42:18.000000","5055839532717","Case 9: blank unit price in quantity","1",""
+"279f9d3e-42f1-4113-abd9-e5511f735f52","85a3963e-0b5f-4a5a-b41e-e3ae6ecc5965","2021-05-27 15:42:18.000000","5055839532717","Case 10: Multi errors blank unit price in quantity","",""
